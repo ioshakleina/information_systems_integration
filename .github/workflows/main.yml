@@ -2,7 +2,7 @@ name: Build and test project
 
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   build:
@@ -18,7 +18,7 @@ jobs:
         node-version: '16.x'
 
     - name: Install dependencies
-      run: npm install
+      run: npm instal
 
     - name: Build project
       run: npm run build
